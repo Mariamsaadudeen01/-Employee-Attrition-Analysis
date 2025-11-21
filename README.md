@@ -1,5 +1,7 @@
-# -Employee-Attrition-Analysis
+<img width="1415" height="691" alt="Employee Attrition Dashboard" src="https://github.com/user-attachments/assets/f3e7b64a-3ea9-4e8c-8684-c7a5ce7cb03b" /># -Employee-Attrition-Analysis
 A Comprehensive Excel-based analytics project that explores employee attrition drivers, visualizes workforce trends, and delivers data-backed insights for retention strategy optimization. This project leverages pivot tables, KPIs, and interactive dashboards to support data-driven retention strategies and smarter HR decisions.
+
+
 INTRODUCTION: Why Employee Attrition Deserves a Closer Look
 Behind every resignation letter lies a story — sometimes of growth, sometimes of frustration, and often of patterns that leaders fail to see. Employee attrition is not just a number; it’s a mirror reflecting workplace satisfaction, performance culture, compensation fairness, and management practices.
 
@@ -38,6 +40,8 @@ MonthlyIncome, SalaryLevel
 PerformanceRating
 BusinessTravel
 Attrition (Yes/No)
+
+
 Important Features and Their Significance
 Attrition: The dependent variable indicating employee departure.
 Monthly Income: Key factor in satisfaction and retention.
@@ -47,6 +51,7 @@ Data Limitations or Biases
 Synthetic nature means the dataset approximates, not mirrors, real corporate data.
 No temporal data (e.g., hire/exit dates), limiting time-based trend analysis.
 Minimal qualitative feedback (e.g., job satisfaction reasons).
+
 Data Splitting and Preprocessing
 Data Cleaning
 Using Excel’s Power Query, duplicates were removed, column headers standardized, and categorical values (e.g., “Yes/No” for attrition) reformatted for consistency.
@@ -95,10 +100,12 @@ Pivot Tables: Aggregated attrition by demographics (e.g., Age Group, Department,
 Slicers: Enabled interactive gender filtering.
 Charts: Visualized attrition trends by category.
 Calculated Fields: Attrition Rate = Former Employees / Total Employees.
+
 Recommendations
 Strengthen compensation strategies for early- to mid-career employees.
 Encourage internal growth paths to retain high-performing staff.
 Post-Analysis and Insights
+
 Key Findings
 Low Salary Employees: 859 recorded attrition — the highest category.
 High Performers Lost: 252 — smaller but critical to long-term productivity.
@@ -112,98 +119,109 @@ However, attrition across gender was nearly balanced, suggesting non-gendered ca
 Data Visualizations & Charts
 1. Attrition By Age group: 109 exists were recorded in the age group between 26–35years, making the most frequent age group with the attrition rate.
 
-Press enter or click to view image in full size
+<img width="968" height="440" alt="image" src="https://github.com/user-attachments/assets/a15ab3d9-9516-4f01-a6f9-946cc5c0545c" />
+
 
 Total Attrition By Employee Age Group
 2. Departmental Attrition: The highest attrition was recorded in the Maternity department with a total of 98 exits.
+
+<img width="528" height="446" alt="image" src="https://github.com/user-attachments/assets/be2e1505-75c2-474f-9e19-61f15fb79d42" />
 
 
 Total Attrition by Employee Department
 3. Attrition By Employee Earnings: Employees with the lowest salary have the highest attrition, with a total of 153 exits.
 
+<img width="502" height="488" alt="image" src="https://github.com/user-attachments/assets/ad21dce7-0478-4548-b133-4ccb16b438b6" />
 
 4. Attrition By Gender: The male employees have the highest attrition record of 113 total exist.
 
-Press enter or click to view image in full size
+<img width="720" height="460" alt="image" src="https://github.com/user-attachments/assets/5685bfd7-cd34-4509-a5d6-548784c26f70" />
 
 Total Attrition by Employees gender
 5. Attrition By Marital Status: The singles exited the company more, with a total of 114 exits.
 
+<img width="668" height="494" alt="image" src="https://github.com/user-attachments/assets/286b24ab-3ce1-4a4d-9bed-48a01963a7ed" />
+
 
 Total Attrition by Employee Marital Status
+
 Dashboard Summary
+
+
 The interactive CASA Employee Attrition Dashboard brings together:
 
 KPIs: Total Employees, Active %, Attrition %, Average Age.
 Bar Charts: Attrition by Age Group and Salary Level.
 Doughnut Charts: Departmental and Business Travel Analysis.
 Stacked Bars: Gender and Marital Status Comparison.
-Press enter or click to view image in full size
+
+<img width="1415" height="691" alt="Employee Attrition Dashboard" src="https://github.com/user-attachments/assets/29ea5943-1ca9-4261-814f-4d7840687b77" />
 
 Key Takeaways from Visuals
 Visuals make patterns intuitive — attrition by salary level and age group stand out immediately.
 Departmental donut charts highlight operational hotspots for HR review.
 Gender parity in attrition rates reinforces neutral HR practices.
+
 Recommendations and Observations
 Actionable Insights
+
 1. Reassess Pay Structures
 Observation:
 The dashboard revealed that low-income employees accounted for the majority of attrition cases. Employees in the lowest salary bands showed a consistent pattern of early exits, suggesting that compensation remains a key motivational factor influencing retention.
 
 Recommendation:
-
 Conduct a comprehensive salary audit across all departments to identify internal inequities.
 Align compensation with industry benchmarks and performance metrics to reduce turnover due to financial dissatisfaction.
 Introduce variable pay systems — including performance bonuses, retention incentives, and recognition awards — to reward contribution and encourage longevity.
 Establish a transparent salary progression framework so employees understand the connection between performance, tenure, and pay advancement.
+
 2. Target Mid-Age Talent (26–35 Years)
 Observation:
 Employees aged 26–35 years recorded the highest attrition rate, aligning with career exploration and mobility stages. This group often seeks faster growth, professional development, and better work-life balance opportunities.
 
 Recommendation:
-
 Design career development tracks with clear milestones and promotion pathways.
 Offer mentorship programs pairing mid-level employees with senior professionals to guide growth.
 Introduce personalized learning and certification opportunities, such as sponsored online courses or leadership workshops.
 Develop flexible engagement models — like remote or hybrid schedules — to accommodate evolving lifestyle needs of this demographic.
+
 3. Encourage Career Progression and Learning Initiatives
 Observation:
 Attrition was more prevalent among employees with limited internal mobility or stagnant career progression. Many exits occurred in roles with narrow advancement opportunities, suggesting that the lack of skill development directly contributes to employee dissatisfaction.
 
 Recommendation:
-
 Integrate a Learning and Development (L&D) dashboard into HR operations to track training participation and outcomes.
 Offer succession planning programs that prepare employees for upward or lateral movement within the organization.
 Recognize and promote skill diversification by encouraging cross-departmental collaboration projects.
 Tie promotions and role expansion to both performance and professional growth initiatives.
+
 4. Departmental Engagement & Cultural Reinforcement
 Observation:
 Certain departments — particularly Cardiology and Neurology — showed higher attrition compared to others. This may stem from job intensity, workload imbalance, or limited managerial support.
 
 Recommendation:
-
 Conduct departmental satisfaction assessments using surveys and one-on-one interviews.
 Create team-based engagement programs, focusing on peer recognition, collaboration, and communication.
 Train departmental heads in inclusive leadership and employee well-being management to promote psychological safety.
 Deploy Excel-based department dashboards to monitor monthly attrition and identify emerging problem areas.
+
 Optimizations or Business Decisions
 1. Institutionalize Data-Driven HR Monitoring
 The HR leadership team should integrate Excel dashboards with HR Information Systems (HRIS) to automate attrition tracking and visualize monthly, quarterly, and yearly trends.
-
 Develop interactive KPI dashboards (using PivotTables and slicers) to enable real-time monitoring of key metrics such as attrition by department, salary band, and performance rating.
 Ensure HR analysts are trained to interpret patterns and correlations, such as how travel frequency, job satisfaction, or education field relate to attrition risk.
 Establish monthly HR review meetings where data-driven insights guide strategic HR interventions.
-2. Build Predictive Workforce Models
-While Excel provides powerful descriptive analytics, the next step is predictive modeling.
 
-Export the cleaned dataset to Power BI or Python (Pandas, Scikit-learn) for developing predictive models that estimate attrition probability based on demographic and behavioral variables.
+2. Build Predictive Workforce Models
+While Excel provides powerful descriptive analytics, the next step is predictive modeling. Export the cleaned dataset to Power BI or Python (Pandas, Scikit-learn) for developing predictive models that estimate attrition probability based on demographic and behavioral variables.
 Use logistic regression or decision tree models to simulate “what-if” retention scenarios.
 Incorporate predictive insights into strategic HR planning — helping anticipate turnover spikes and proactively design retention actions.
-3. Institutional Policy Implications
 
+3. Institutional Policy Implications
 Revise performance appraisal systems to ensure fairness and clarity. Employees with moderate ratings should receive development feedback rather than stagnation.
 Establish data-backed retention policies for high-skill departments, ensuring critical roles remain staffed consistently.
 Use historical attrition data to inform future recruitment forecasts, minimizing cost overruns from unexpected turnover.
+
 Unexpected Outcomes
 1. Gender Equity in Attrition
 Contrary to common assumptions, the data revealed that attrition was not significantly gender-biased. Both male and female employees exhibited similar departure trends, suggesting equitable HR practices and balanced organizational policies.
@@ -248,6 +266,7 @@ References
 IBM HR Analytics Employee Attrition Dataset (Kaggle)
 Microsoft Excel Official Documentation
 SHRM Reports on Employee Retention (2024)
+
 Appendices
 Appendix A: Pivot Tables (Attrition by Department, Salary, Age)
 Appendix B: Visual Charts (Bar, Donut, and KPI Cards)
